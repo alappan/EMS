@@ -1,0 +1,25 @@
+{
+  "preset": "google",
+  "requireCurlyBraces": [
+     "else",
+     "for",
+     "while",
+     "do",
+     "try",
+     "catch"
+  ],
+  "disallowMultipleVarDecl": "exceptUndefined",
+  "disallowSpacesInsideObjectBrackets": null,
+  "requireCamelCaseOrUpperCaseIdentifiers":"ignoreProperties",
+  "requireSpaceAfterLineComment":null,
+  "maximumLineLength": {
+     "value": 150,
+     "allowComments": true,
+     "allowRegex": true
+  },
+  "validateJSDoc": {
+    "checkParamNames": false,
+    "checkRedundantParams": false,
+    "requireParamTypes": false
+  }
+}
